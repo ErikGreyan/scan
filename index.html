@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- Project by Erik Greyan https://erikgreyan.github.io/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="https://erikgreyan.github.io/scan">
+    <meta property="og:image" content="img/static/share.jpg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/static/favicon.ico">
+    <link rel="shortcut icon" href="img/static/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Generator QR Code</title>
+</head>
+<body>
+    <div class="scan">
+        <h2>Enter your text or URL</h2>
+        <input type="text" placeholder="Text or URL" class="url">
+        <img src="" alt="QR Code" class="img hidden">
+        <button id="button">Generator QR Code</button>
+    </div>
+
+    <div class="error">
+        <div class="error_items">
+            <h2>Please enter your text or URL</h2>
+            <button id="error_button">OK</button>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
